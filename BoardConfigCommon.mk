@@ -98,6 +98,7 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # QCOM PowerHAL
 TARGET_POWERHAL_VARIANT := qcom
+TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/lge/g2-common/power/power_ext.c
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
