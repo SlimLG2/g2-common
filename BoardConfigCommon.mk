@@ -41,8 +41,9 @@ BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/g2-common/releasetools/mkbootimg.mk
 TARGET_KERNEL_SOURCE := kernel/lge/msm8974
 TARGET_KERNEL_ARCH := arm
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+--KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+--KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+TARGET_GCC_VERSION_EXP := 4.9-cortex-a15
 
 
 # Audio
