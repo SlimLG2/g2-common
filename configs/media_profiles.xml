@@ -414,17 +414,11 @@
     -->
     <VideoEncoderCap name="h264" enabled="true"
         minBitRate="128000" maxBitRate="60000000"
-<<<<<<< HEAD
-        minFrameWidth="176" maxFrameWidth="3840"
-        minFrameHeight="144" maxFrameHeight="2160"
-        minFrameRate="15" maxFrameRate="120" />
-=======
         minFrameWidth="176" maxFrameWidth="1920"
         minFrameHeight="144" maxFrameHeight="1080"
         minFrameRate="15" maxFrameRate="120"
         maxHFRFrameWidth="1920" maxHFRFrameHeight="1080"
         maxHFRMode="60"  />
->>>>>>> 01b6816... g2: Disable 4K crap (for now)
 
     <VideoEncoderCap name="h263" enabled="true"
         minBitRate="64000" maxBitRate="8000000"
