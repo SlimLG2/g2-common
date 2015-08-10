@@ -80,17 +80,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.vmd=false \
     ro.qti.sensors.wu=false
 
-# Sensor streaming rates
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qti.sensors.max_accel_rate=200 \
-    ro.qti.sensors.max_gamerv_rate=200 \
-    ro.qti.sensors.max_geomag_rotv=60 \
-    ro.qti.sensors.max_grav_no_gyro=200 \
-    ro.qti.sensors.max_grav_rate=200 \
-    ro.qti.sensors.max_gyro_rate=200 \
-    ro.qti.sensors.max_mag_rate=200 \
-    ro.qti.sensors.max_rotvec_rate=200
-
 # Sensor debugging
 # Valid settings (and presumably what they mean):
 #   0      - off
